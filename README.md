@@ -9,10 +9,12 @@ last modified: 2023-05-10
   from report import *
 
   #원본 레이블 디렉토리와 결과 레이블 디렉토리 선언
+  
   dir_original=r"E:\Works\projects\3.ID\code\origin_label"
   dir_result=r"E:\Works\projects\3.ID\code\result_label"
 
   #return: report 결과 및 결과 디렉토리
+  
   dir_report,report=report(dir_original, dir_result)
 
 ### 2. UI로 사용하는 방법
